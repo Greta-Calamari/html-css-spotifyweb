@@ -91,29 +91,46 @@ aside{
 aside ul{
     list-style: none;
     padding:5%;
-    color: #d2d2d2;
+    
     
     
     
 }
 
-aside li{
+aside ul li a {
+    color: #6e7176;
+}
+
+aside ul li{
     padding: 5%;
+    color:#6e7176;
+    
     
 }
 
-aside ul li h3{
+aside h3{
     color: white;
 }
 
-aside ul:hover li:nth-child(1){
+aside ul:hover li{
     border-left: 1px solid green;
-    padding-left: 5%;
     color: white;
     margin-top: 5%;
     
     
+    
 }
+
+aside ul:hover a{
+    color: white;
+  
+    
+   
+    
+    
+}
+
+
 
 .aside-bottom{
     display: flex;
@@ -127,7 +144,7 @@ aside ul:hover li:nth-child(1){
 
 
 .divider{
-    border-bottom: 1px solid #d2d2d2;
+    border-bottom: 1px solid #6e7176;
     color: #d2d2d2;
     padding-bottom: 5%;
 
@@ -219,33 +236,19 @@ nav.top{
 }
 .sub-text{
     font-size: 15px;
-    color: lightgray;
+    color: #6e7176;
     line-height: 40px;
 }
 
 
-
-
-
-
-
- 
- 
-
-
-
-    
-    
-    
-    
-
-    
-    
-
-
-
-
 /* footer */
+.flex-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
 
 
 footer{
@@ -255,4 +258,80 @@ footer{
     position: fixed;
     bottom: 0;
     left: 0;
+    
+    
 }
+footer.flex-container{
+    justify-content: space-between;
+    
+}
+
+.flex-container.left {
+    gap: 20px;
+}
+    
+   
+
+.icon-music img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    
+}
+
+.middle{
+    font-size: 2em;
+    text-align: center;
+    display: block;
+    
+    
+    
+    
+    
+    
+
+}
+
+.music-line{
+    border: 1px solid #6e7176;
+    height: 3px;
+    width: 500px;
+    background-color: #6e7176;
+    
+
+}
+
+.button-line
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+ 
+ 
+
+
+
+    
+    
+    
+    
+
+    
+    
+
+
+
