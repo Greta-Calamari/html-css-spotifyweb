@@ -166,7 +166,7 @@ nav.top{
     
 }
 
-/* section main */
+/* section main nav*/
 
 .main-content nav ul{
     text-align: center;
@@ -187,6 +187,26 @@ nav.top{
      
  }
 
+ /* content musica */
+
+ .category-name{
+     padding: 40px;
+     
+ }
+
+ .content{
+     display: flex;
+     margin-left:20px;
+     
+    }
+    
+    .card{
+    flex: 0 1 calc(100% / 6);
+}
+
+
+
+ 
  
 
 
