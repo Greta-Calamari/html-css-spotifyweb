@@ -53,6 +53,39 @@ main{
 aside{
     width: 250px;
     background-color: red;
+    
+}
+
+.logo{
+    width: 60%;
+    padding: 5%;
+
+}
+
+aside ul{
+    list-style: none;
+    padding:5%;
+    color: #d2d2d2;
+    
+    
+    
+}
+
+aside li{
+    padding: 5%;
+}
+
+aside ul li h3{
+    color: white;
+}
+
+aside ul:hover li:nth-child(1){
+    border-left: 1px solid green;
+    padding-left: 5%;
+    color: white;
+    margin-top: 5%;
+    
+    
 }
 
 /* nav top main */
