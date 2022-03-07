@@ -190,18 +190,24 @@ nav.top{
  /* content musica */
 
  .category-name{
-     padding: 40px;
+     padding: 20px;
      
  }
 
  .content{
      display: flex;
      margin-left:20px;
+     gap: 10px;
      
     }
     
-    .card{
-    flex: 0 1 calc(100% / 6);
+.card{
+      flex: 0 1 calc(100% / 6);
+      overflow: hidden;
+}
+
+.card-description{
+    
 }
 
 
