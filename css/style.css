@@ -267,6 +267,7 @@ footer.flex-container{
 }
 
 .flex-container.left {
+    width: 25%;
     gap: 20px;
 }
     
@@ -278,6 +279,11 @@ footer.flex-container{
     margin-left: 10px;
     
 }
+
+.flex-container.center{
+    width: 50%;
+}
+
 
 .middle{
     font-size: 2em;
@@ -294,15 +300,37 @@ footer.flex-container{
 
 .music-line{
     border: 1px solid #6e7176;
-    height: 3px;
+    border-radius: 50px;
+    height: 4px;
     width: 500px;
     background-color: #6e7176;
     
 
 }
 
-.button-line
+.button-line{
+    height: 100%;
+    width: 70px;
+    background-color: white;
+}
 
+.flex-container.right{
+    width: 25%;
+}
+
+
+.music-line2{
+    border: 1px solid #6e7176;
+    background-color:#6e7176 ;
+    border-radius: 50px;
+    height: 4px;
+    width: 100px;
+    
+}
+.n2{
+    width: 20px;
+    
+}
 
 
 
