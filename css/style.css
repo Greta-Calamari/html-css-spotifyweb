@@ -181,8 +181,16 @@ nav.top{
     margin-left: 20px;
     
  }
+ .main-content nav ul:hover li:first-child{
+     border-bottom: 1px solid green;
+     padding: 5px;
+     
+ }
 
  
+
+
+
     
     
     
