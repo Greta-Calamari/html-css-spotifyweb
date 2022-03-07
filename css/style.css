@@ -52,7 +52,10 @@ main{
 
 aside{
     width: 250px;
-    background-color: red;
+    background-color: #000000;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
     
 }
 
@@ -60,6 +63,20 @@ aside{
     width: 60%;
     padding: 5%;
 
+}
+
+.medium{
+    font-size: 1.7em;
+    vertical-align: middle;
+    
+    
+}
+
+
+.big{
+    font-size: 2.4em;
+    vertical-align: middle;
+    
 }
 
 aside ul{
@@ -73,6 +90,7 @@ aside ul{
 
 aside li{
     padding: 5%;
+    
 }
 
 aside ul li h3{
@@ -88,6 +106,29 @@ aside ul:hover li:nth-child(1){
     
 }
 
+.aside-bottom{
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+     
+}
+
+
+
+.divider{
+    border-bottom: 1px solid #d2d2d2;
+    color: #d2d2d2;
+    padding-bottom: 5%;
+
+}
+
+
+.user{
+    padding-top: 5%;
+    font-size: 1.3em;
+}
 /* nav top main */
 
 nav.top{
