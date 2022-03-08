@@ -245,6 +245,67 @@ nav a{
       flex: 0 1 calc(100% / 6);
       overflow: hidden;
       
+      
+}
+
+.card-image {
+    position: relative;
+    width: 100%;
+    
+}
+
+.overlay{
+    display: none;
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); 
+    width: 85%;
+    height: 99%;
+    transition: 1s ease;
+}
+.overlay-text{
+    margin: 2.7em;
+}
+
+
+
+.overlay2{
+    display: none;
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); 
+    width: 81%;
+    height: 99%;
+    transition: 1s ease;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+.card-image:hover .overlay2{
+    display: block;
+}
+
+
+
+    
+    
+    
+
+.card-image:hover .overlay{
+    display: block;
 }
 
 .card-description{
@@ -252,10 +313,17 @@ nav a{
     
 
 }
-
+    
+    
+    
 .top-text{
     font-weight: 700;
 }
+    
+
+
+
+
 .sub-text{
     font-size: 15px;
     color: #6e7176;
