@@ -129,7 +129,9 @@ aside ul li a:hover{
     color: white;
 }
     
-   
+.little-logo{
+    display: none;
+} 
     
     
 
