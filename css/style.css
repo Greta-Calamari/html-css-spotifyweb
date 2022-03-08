@@ -383,11 +383,33 @@ footer{
 }
 
 .right{
+    position: absolute;
+    right: 50px;
     display: flex;
     flex-direction: row;
     gap: 1em;
 
 }
+
+.volume-bar{
+    display: flex;
+    align-items: center;
+    gap:0.7em ;
+}
+
+.volume-bar .progress-bar{
+    width: 6em;
+}
+
+i{
+    color: #6e7176;
+}
+
+i:hover{
+    color: white;
+}
+
+
   
     
 
