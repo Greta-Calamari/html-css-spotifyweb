@@ -11,5 +11,34 @@
     main{
         width: 100%;
     }
+
+
+
+     h3, li{
+        display: none;
+    }
+
+    
+    .button {
+        border: 1px solid #6e7176;
+        border-radius: 40px;
+        padding: 10px;
+        width: 30%;
+        text-align: center;
+        align-self: flex-end;
+        margin-right: 10%;
+        position: absolute;
+        right: 0;
+        bottom: 30%;
+    }
+    nav.top {
+        width:calc(100% - 40px);
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        text-align: right;
+        position: fixed;
+        right: 0;
+    }
     
 }
