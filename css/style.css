@@ -323,10 +323,15 @@ nav a{
     height: 100%;
     
     
+    
 }
 .overlay-text{
     margin: 2em;
     
+    
+}
+.green{
+    color: greenyellow;
 }
 
 
