@@ -291,7 +291,7 @@ nav a{
     transition: 1s ease;
 }
 .overlay-text{
-    margin: 3em;
+    margin: 2em;
 }
 
 
@@ -327,7 +327,7 @@ nav a{
     
 
 
-.card-description{
+.round .card-description{
     text-align: center;
     
 
