@@ -136,6 +136,11 @@ aside ul li a:hover{
     display: none;
 
 }
+.user-icon2{
+    display: none;
+    
+
+}
     
     
 
@@ -235,12 +240,13 @@ nav a{
     text-transform: uppercase;
     display: inline-block;
     margin-left: 20px;
+    line-height: 20px;
     
     
  }
  .main-content nav ul li:hover{
      border-bottom: 1px solid green;
-     padding-bottom: 0.5em;
+     height: 20px;
      color: white;
      
  }
