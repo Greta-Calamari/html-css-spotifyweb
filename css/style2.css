@@ -232,32 +232,50 @@ nav.top{
     margin-left: 5px;
     font-size: 15px;
     border: none;
-    position: relative;
+    
     
     
 }
 .fa-search{
     position: absolute;
     top:46px;
-    left: 90px;
+    left: 95px;
     color: black;
-    z-index: 1000;
+    
 
 }
-.fa-magnifying-glass:before, .fa-search:before {
-    content: "\f002";
+input{
+    padding-left: 30px;
+    width: 300px;
+    height: 30px;
 }
   
+.input-search{
+    position: relative;
+}
 
 
 /* section main */
 
+.card{
+    display: flex;
+    flex:0 1 calc((100% / 9) - 10px);
+    width: 200px;
+    height: 200px;
+    background-color: red;
 
-    
+} 
+
+section.flex-container{
+    flex-flow:row wrap;
+    gap:10px;
+    align-items:flex-start;  
+}
+
 
  
     
-      
+
       
       
       
