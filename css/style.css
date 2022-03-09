@@ -55,6 +55,7 @@ main{
     height: 100%;
     width: 100%;
     overflow-y:auto;
+    overflow-x: hidden;
     padding-top: 120px;
     
 }
@@ -241,15 +242,24 @@ nav a{
     display: inline-block;
     margin-left: 20px;
     line-height: 20px;
+    height: 20px;
     
     
  }
  .main-content nav ul li:hover{
-     border-bottom: 1px solid green;
-     height: 20px;
      color: white;
      
  }
+ .little-line{
+     border: 1px solid green;
+     width: 40px;
+     margin: auto;
+     display: none;
+ }
+ .main-content nav ul li:hover .little-line{
+     display: block;
+ }
+     
 
  /* content musica */
 
