@@ -197,7 +197,14 @@ nav.top{
     right: 0;
 }
     
-    
+.arrow-box{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: lightgray;
+    text-align: center;
+} 
     
 .flex-container1 {
     display: flex;
@@ -211,10 +218,34 @@ nav.top{
     justify-content: flex-start;
     margin-top: 40px;
     flex: 0 1 50%;
+    gap: 10px;
 }
 
 .button{
     flex: 0 1 50%;
+}
+.search-bar{
+    width: 300px;
+    height: 30px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+    border: none;
+    position: relative;
+    
+    
+}
+.fa-search{
+    position: absolute;
+    top:46px;
+    left: 90px;
+    color: black;
+    z-index: 1000;
+
+}
+.fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
 }
   
 
