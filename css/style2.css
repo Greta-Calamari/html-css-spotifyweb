@@ -262,7 +262,8 @@ input{
     flex:0 1 calc((100% / 9) - 10px);
     width: 200px;
     height: 200px;
-    background-color: black;
+    border-radius: 10px;
+    
     overflow-x: hidden;
     position: relative;
     
@@ -271,6 +272,46 @@ input{
    
 
 } 
+.green{
+    background-color: #27856a;
+}
+
+.indie-green{
+    background-color: #5f8108;
+}
+.blue{
+    background-color: #1e3264;
+}
+.violet{
+    background-color: #8c67ac;
+}
+.pink{
+    background-color: #e8125c;
+}
+.orange{
+    background-color: #b95d06;
+}
+.reddo{
+    background-color: #8b1932;
+}
+.red{
+    background-color: #ec1e32;
+}
+.gray{
+    background-color: #777777;
+}
+.purple{
+    background-color: #4f374f;
+}
+
+.azure{
+    background-color:#477d95 ;
+}
+.white{
+    background-color: lightgrey;
+}
+
+
 
 section.flex-container{
     display: flex;
@@ -289,7 +330,16 @@ section.flex-container{
     position: absolute;
     top: 0;
     margin-top: 10px;
-    transform:rotate(10deg);
+    font-size: 20px;
+    margin-left: 15px;
+    
+    
+}
+
+.card img{
+    width: 50%;
+    height: 50%;
+    transform: translate(90px, 80px) rotate(30deg);
 }
 
 
