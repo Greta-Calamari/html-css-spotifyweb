@@ -140,6 +140,9 @@
     .card-image:hover .overlay3{
         display: block;
     }
+    .aside-scroll{
+        overflow-y:hidden;
+    }  
     
 
     
