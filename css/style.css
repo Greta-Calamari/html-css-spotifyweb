@@ -127,11 +127,17 @@ aside h3{
     color: white;
 }
 
-aside ul li a:hover{
-    border-left:1px solid green ;
-    padding-left: 2px;
+aside ul li a:hover{ 
     color: white;
+    border-left: 1px solid greenyellow;
+    line-height: 10px;
 }
+
+
+    
+    
+
+
     
 .little-logo{
     display: none;
