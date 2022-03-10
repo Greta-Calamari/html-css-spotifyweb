@@ -1,0 +1,174 @@
+@media screen and (max-width:420px){
+    
+    .card{
+        flex:0 1 calc((100% / 2) - 10px); 
+    }
+
+    .content{
+        flex-wrap: wrap;
+    }
+
+
+    aside{
+        width: 50px;
+    }
+
+    main{
+        width: 100%;
+    }
+
+
+
+     h3, .logo{
+        display: none;
+    }
+
+    aside span{
+        display: none;
+    }
+
+    .little-logo{
+        display: block;
+        width: 80%;
+        margin-left: 0.3em;
+        
+    }
+        li{
+        margin-left:0.3em ;
+        margin-top: 0.5em;
+    }
+
+    .user-icon{
+        display: block;
+        margin-left:5.8px;
+
+    }
+    .user-icon2{
+        display: block;
+        margin-left:0.5em;
+
+    }
+
+
+    .divider{
+        display: none;
+    }
+    
+    
+    .button {
+        
+        border-radius: 40px;
+        padding: 10px;
+        width: 50%;
+        text-align: center;
+        align-self: flex-end;
+        margin-right: 10%;
+        position: absolute;
+        right: 0;
+        bottom: 30%;
+    }
+    nav.top {
+        width:calc(100% - 40px);
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        text-align: right;
+        position: fixed;
+        right: 0;
+    }
+
+    .volume-bar .progress-bar{
+        width: 4em;
+    }
+    
+    .right {
+        display: flex;
+        flex-direction: row;
+        gap: 0.4em;
+        margin-right: 1em;
+        width: 25%;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .control-buttons {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+    }
+    .left{
+        display: block;
+    }
+    .overlay{
+       opacity: 0;
+        position: absolute;
+        top: 0;
+        font-size: 3em;
+        text-align: center;
+        background: rgba(114, 111, 111, 0.5); 
+        width: 100%;
+        height: 100%;
+        transition:all 1s ease;
+    }
+    .overlay-text{
+        margin: 1.9em;
+    }
+    
+    
+    .overlay3{
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        color: white;
+        font-size: 3em;
+        text-align: center;
+        background: rgba(114, 111, 111, 0.5); 
+        width: 100%;
+        height: 100%;
+        transition:all 1s ease;
+        border-radius: 50%;
+        
+    
+    }
+    
+    
+    
+    
+    .card-image:hover .overlay{
+        
+        opacity: 1;
+    }
+    
+    
+    .card-image:hover .overlay3{
+        
+        opacity: 1;
+    }
+    .aside-scroll{
+        overflow-y:hidden;
+    }  
+    
+    input {
+        padding-left: 18px;
+        width: 230px;
+        height: 30px;
+    }
+    .arrow-box {
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+        padding: 5px;
+        background-color: lightgray;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .fa-search {
+        position: absolute;
+        top: 46px;
+        left: 112px;
+        color: black;
+    }
+    
+
+    
+    
+}
