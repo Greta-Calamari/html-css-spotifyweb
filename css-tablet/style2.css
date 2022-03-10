@@ -1,4 +1,4 @@
-@media screen and (max-width:768px) and (min-width:421px){
+@media screen and (max-width:768px) and (min-width:570px){
     .card{
         flex:0 1 calc((100% / 2) - 10px);
         
